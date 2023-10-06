@@ -5,3 +5,6 @@
 # 执行如下命令，按提示输入某条微博的分享链接，如 http://m.weibo.cn/status/4912294478223xxx?
 python3 index.py
 ```
+
+### Changelog
+- 2023.10.06 feat: 支持单条微博多视频下载
