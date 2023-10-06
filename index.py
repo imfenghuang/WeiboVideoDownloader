@@ -86,7 +86,7 @@ class WeiboVideoDownloader(object):
 
     def findKey(self, keys):
         ret = ''
-        list = ['超清 4k60', '超清 4k', '超清 2K60', '超清 2K', '高清 1080P', '高清 720P', '标清 480P', '流畅 360P']
+        list = ['超清 4K60', '超清 4K', '超清 2K60', '超清 2K', '高清 1080P', '高清 720P', '标清 480P', '流畅 360P']
         for index in range(len(list)):
             key = list[index]
             if key in keys:
